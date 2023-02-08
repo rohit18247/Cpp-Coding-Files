@@ -1,0 +1,23 @@
+// Lecture 5 : Pointers and Functions continued : 
+//  Functions and Arrays : 
+
+
+#include <iostream>
+using namespace std; 
+
+// create a function that takes as input an array and the size of the array : 
+// interesting note : int a[] : this gives the address of the array a. 
+
+
+int sum(int a[], int size) {
+	cout << sizeof(a) << endl; 
+	return 0; 
+
+} 
+
+int main() {
+	int a[10]; 
+	cout << sizeof(a) << endl;  
+	cout << sum(a,10) << endl;  
+
+}
